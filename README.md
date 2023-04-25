@@ -46,7 +46,7 @@ CREATE TABLE users (
 define('servername', 'localhost');
 define('username', 'root');
 define('password', ''); // De tener una contraseña para el usuario pongala aqui
-define('dbname', 'discogram');
+define('dbname', 'krypten');
  
 $conn = mysqli_connect(servername, username, password, dbname);
  

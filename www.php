@@ -20,7 +20,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
         <h1>Hola, <?php echo htmlspecialchars($_SESSION["username"]); ?></h1><i style="color:gray;margin:0 auto;margin-left:20rem;margin-top:0;font-size:30px" class="fa-solid fa-ellipsis-vertical"></i>
     </div>
     <div class="nav-hor">
-        <h3>Available Sites</h3>
+        <h3>Available Sites</h3><br>
+        <span style="color:green;padding-top:90px">Running</span><br><br>
+        <gremio>KrypenPedia <stats style=""><i class="fa-solid fa-user"></i> 0</stats></gremio><hr><br>
+        <span style="color:red;padding-top:90px">Stopped</span><br><br>
+        <span style="color:yellow;padding-top:90px">Mantainance</span>
     </div>
     <div class="search">
         <input placeholder="krpyten://"> <i style="font-size:20px;margin-left:20px;color:white;" class="fa-solid fa-ellipsis-vertical"></i>

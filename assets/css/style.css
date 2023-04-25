@@ -54,5 +54,22 @@ h3 {
     border: 1px solid white;
 }
 
+.nav-hor span {
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: #8b8c8d
+}
+
+gremio {
+    color: white;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+stats {
+    background-color: #1c1b21;
+    border-radius: 5px;
+    padding: 3px;
+}
 
 

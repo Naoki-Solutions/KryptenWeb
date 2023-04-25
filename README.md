@@ -11,6 +11,7 @@ Krypten para el back-end solo utiliza php y MySQL. Los usuarios y los mensajes d
     - [ ] Terminar la UI
     - [ ] Hacer el menu 
     - [ ] Hacer los gremios predeterminados
+    - [ ] Hacer el menu desplegable
 
     - [ ] **Lanzar Krypten**
 

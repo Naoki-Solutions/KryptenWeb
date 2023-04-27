@@ -16,11 +16,12 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <title>Krypten Web</title>
 </head>
 <body>
-    <div class="nav-dark">
-        <h1>Hola, <?php echo htmlspecialchars($_SESSION["username"]); ?></h1><i style="color:gray;margin:0 auto;margin-left:20rem;margin-top:0;font-size:30px" class="fa-solid fa-ellipsis-vertical"></i>
+    <div class="nav-dark"><br>
+        <h1>Hola, <?php echo htmlspecialchars($_SESSION["username"]); ?></h1>
+        <!-- <i style="color:gray;margin-left:20rem;margin-top:20px;font-size:30px" class="fa-solid fa-ellipsis-vertical"></i> -->
     </div>
     <div class="nav-hor">
-        <h3>Available Sites</h3><br>
+        <h3>Gremios</h3><br>
         <span style="color:green;padding-top:90px">Running</span><br><br>
         <gremio>KrypenPedia <stats style=""><i class="fa-solid fa-user"></i> 0</stats></gremio><hr><br>
         <span style="color:red;padding-top:90px">Stopped</span><br><br>
